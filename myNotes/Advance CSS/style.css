@@ -1,0 +1,35 @@
+/* .class <tag> {
+    apply the properties
+} 
+It means select all the tag in class and apply these properties
+
+Identify where the same is comming from and make margin or padding zero than
+Inline elements have width and size as same as their content, while Block Element take as much space as its parent
+
+Use borders to see the size of the element
+em means size of 'm' alphabet in that block or text, so for h1 em is different than 1em for h2 tag
+rem means relative em means size of the parent, which is same as the default size of the html body text, 1rem is same for h1 and h2
+
+Mostly used css units are rem and em and percents
+
+block elements have width and height attribute wwhich can set by any of the above mentioned units, ems/rems/% 
+
+for image height %unit doesn't work
+
+images are inline elements, we can make inline element take the dimensions of the parent with the help of display property as inline-block
+
+make a thing at the center always make margin as 0 auto; means 0 margin from top and bottom and divide the margin equally between left and right
+
+float image, if u float than u should clear
+
+making a blog website and want the content at center do width=80%; margin 0 auto;
+
+flex box means boxes aligned side by side to each other
+
+when using box make sure to clear otherwise things would break
+
+input: not([type="radio"]) {
+    // this would select all the input type class excluding radio class
+}
+
+*/

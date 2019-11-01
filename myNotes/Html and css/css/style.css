@@ -1,0 +1,73 @@
+/* styling the body in the following */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffcc;
+}
+
+img {
+  border: 10px solid green;
+}
+
+h1 {
+  border: 5px dotted red;
+}
+
+blockquote {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  /* relative em( where em is the length of 'm' set default by browser) */
+  font-style: italic;
+  text-align: center;
+}
+
+cite {
+  font-size: 1.5rem;
+}
+
+/* writing exceptions in  css with the help of class, class start with period . */
+
+.bigbold {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* cascading or last wins in css */
+
+/* pseudo class these starts with : demonstration, a is any link */
+a:link {
+  color: brown;
+}
+/* selecting links which are visited */
+a:visited {
+  color: black;
+  font-weight: normal;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+a.harvard {
+  color: aqua;
+}
+
+/* link, visited and hover property need to be declared in order */
+
+/* the below code say for all links in unordered list do font as */
+ul a:link {
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  color: #ffffcc;
+}
+
+#myId {
+  color: #ffffcc;
+}
+
+/* ids are used a lot in JS, but still used in css */
+/* pick colors from https://color.adobe.com/ */
+/* install colorZilla chrome extension */
+/* mozilla docs and css tricks */
